@@ -12,3 +12,6 @@ the VA to cover tuition expenses that exceed maximum post-911 GI bill rate.  Thi
 as the tool may miss some in-state or public institutions.  Users should recognize that this tool is oriented to utilization of the post-911, not Montgomery GI-bill.  In this section, I will
 discuss overall project methodology.  Later, I will cover how I approached ethical and responsible data collection for the various sources within the project.  At this stage, I produced a CSV with
 all Yellow Ribbon Schools and associated information.
+
+* Lat-long to Zip Code: The VA site did not house zip codes, so an intermediate step to produce the zip codes from lat-long was required to proceed to determining the BAH rate for a school (location).
+  
