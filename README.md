@@ -13,5 +13,10 @@ as the tool may miss some in-state or public institutions.  Users should recogni
 discuss overall project methodology.  Later, I will cover how I approached ethical and responsible data collection for the various sources within the project.  At this stage, I produced a CSV with
 all Yellow Ribbon Schools and associated information.
 
-* Lat-long to Zip Code: The VA site did not house zip codes, so an intermediate step to produce the zip codes from lat-long was required to proceed to determining the BAH rate for a school (location).
+* Lat-long to Zip Code: The VA site did not house zip codes, so an intermediate step to produce the zip codes from lat-long was required to proceed to determining the BAH rate for a school (location).  Downloaded US Census ZCTA files hosted at https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html.  Force 5 digit strings for zip codes with leading zeroes.
+
+* Add BAH: Defense Travel Management Office (DTMO) hosts a tool for Basic Allowance for Housing Rate Lookup at https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/BAH-Rate-Lookup/.  Additionally, they offer download of an ASCII file containing BAH rates for all locations and all pay grades for the specified year.  At this step, I built a script to read the CSV with yellow ribbon schools, force zip codes to a 5-digit string (escape leading zero issues), map zip to MHA (military housing allowance), add a column for BAH for E-5 with dependents, and write an updated CSV.
+
+* Add Fair Market Rents:  Explored Living Wage Calculator hosted at https://livingwage.mit.edu/.  This site expressly prohibits scraping the data for more than 10 sites.  This led me to look to the source data for housing specifically after reading the documentation at https://livingwage.mit.edu/resources/living_wage_technical_documentation.pdf, accessed on 20 March, 2026.
+HUD’s Office of Policy Development and Research (PD&R) 
   
