@@ -19,4 +19,6 @@ all Yellow Ribbon Schools and associated information.
 
 * Add Fair Market Rents:  Explored Living Wage Calculator hosted at https://livingwage.mit.edu/.  This site expressly prohibits scraping the data for more than 10 sites.  This led me to look to the source data for housing specifically after reading the documentation at https://livingwage.mit.edu/resources/living_wage_technical_documentation.pdf, accessed on 20 March, 2026.
 HUD’s Office of Policy Development and Research (PD&R) 
+This product uses the HUD User Data API but is not endorsed or certified by HUD User.
+
   
