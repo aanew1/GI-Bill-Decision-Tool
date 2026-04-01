@@ -20,11 +20,4 @@ all Yellow Ribbon Schools and associated information.
 * Add Fair Market Rents:  Explored Living Wage Calculator hosted at https://livingwage.mit.edu/.  This site expressly prohibits scraping the data for more than 10 sites.  This led me to look to the source data for housing specifically after reading the documentation at https://livingwage.mit.edu/resources/living_wage_technical_documentation.pdf, accessed on 20 March, 2026.
 HUD’s Office of Policy Development and Research (PD&R) 
 This product uses the HUD User Data API but is not endorsed or certified by HUD User.
-Limitations may include:
-- FMR values are estimates provided by HUD and may not reflect real-time market conditions
-- Missing ZIP codes or geolocation data may result in incomplete records
-- Derived cost calculations are estimates and not official HUD outputs
-
-*
-
-  
+Limitations may include: FMR values are estimates provided by HUD and may not reflect real-time market conditions, missing ZIP codes or geolocation data may result in incomplete records, derived cost calculations are estimates and not official HUD outputs  
